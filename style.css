@@ -1,0 +1,60 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  text-align: center;
+  font-size: 70px;
+  margin: 15px;
+  padding: 0;
+}
+
+h2{
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.index_body{
+  background-color: rgb(249, 249, 190);
+}
+.index_ul{
+  margin-left: calc(50% - 225px);
+  margin-right: calc(50% - 200px);
+  font-size: 25px;
+  /*margin-right will affect how far "background-color" extends to the right of the screen for our "a" elements*/
+}
+
+.index_ul a:link,
+.index_ul a:visited{
+  background-color: rgb(255, 255, 233);rgb(248, 248, 199);rgb(239, 239, 213);
+  color: rgb(100, 100, 100);
+  display:block;
+  /*display is set to block so "background-color" extends to width of block element rather than just text*/
+}
+
+a:link,
+a:visited{
+  background-color: rgb(195, 244, 246);
+  color: rgb(10, 80, 123);
+  text-decoration: none;
+}
+
+.index_ul a:hover,
+a:hover {
+  color: rgb(14, 217, 217);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.index_ul a:active,
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
