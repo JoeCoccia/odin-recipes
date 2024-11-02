@@ -24,17 +24,16 @@ img{
   background-color: rgb(249, 249, 190);
 }
 .index_ul{
+  width: 385px;
   margin-left: calc(50% - 225px);
-  margin-right: calc(50% - 200px);
   font-size: 25px;
-  /*margin-right will affect how far "background-color" extends to the right of the screen for our "a" elements*/
 }
 
 .index_ul a:link,
 .index_ul a:visited{
-  background-color: rgb(255, 255, 233);rgb(248, 248, 199);rgb(239, 239, 213);
+  background-color: rgb(255, 255, 233);
   color: rgb(100, 100, 100);
-  display:block;
+  display: block;
   /*display is set to block so "background-color" extends to width of block element rather than just text*/
 }
 
